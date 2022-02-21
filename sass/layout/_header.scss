@@ -1,0 +1,116 @@
+ /*HEADER*/
+ 
+ .header {
+     background: var(--section-bg-color);
+     border-bottom: 1px solid #ECECEC;
+     padding: 24px 0 25px;
+ }
+ 
+ .header__conteiner {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .header-connect {
+     display: flex;
+     align-items: center;
+ }
+ 
+ .header-connect__icon {
+     margin-right: 10px;
+ }
+ 
+ .header__box {
+     display: flex;
+     align-items: center;
+ }
+ 
+ .logo {
+     font-family: Raleway, sans-serif;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.19;
+     width: 145px;
+     height: 31px;
+     letter-spacing: 0.03em;
+     color: var( --header-footer-text-color);
+     margin-right: 93px;
+ }
+ 
+ .header__word {
+     color: black;
+ }
+ 
+ .nav-link {
+     display: flex;
+     align-items: center;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.02em;
+     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+ 
+ .site-nav__link {
+     position: relative;
+ }
+ 
+ .site-nav__link.active::after {
+     content: '';
+     width: 100%;
+     height: 4px;
+     border-radius: 2px;
+     background-color: var(--hover-text-color);
+     position: absolute;
+     left: 0;
+     bottom: -32px;
+ }
+ 
+ .site-nav__link.active {
+     color: var(--hover-text-color);
+ }
+ 
+ .site-nav__link {
+     color: #212121;
+ }
+ 
+ .site-nav__item {
+     margin-right: 50px;
+ }
+ 
+ .site-nav__item:last-child {
+     margin-right: 305px;
+ }
+ 
+ .site-nav {
+     display: flex;
+ }
+ 
+ .header-connect__contact {
+     margin-right: 31.5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .header-connect__contact:last-child {
+     margin-right: 0;
+ }
+ 
+ .header-connect__mail {
+     color: var(--primary-text-color);
+ }
+ 
+ .header-connect__tel {
+     color: var(--primary-text-color);
+ }
+ 
+ .header-connect__icon {
+     fill: currentColor;
+ }
+ 
+ .nav-link:hover,
+ .nav-link:focus {
+     color: var(--hover-text-color);
+ }
