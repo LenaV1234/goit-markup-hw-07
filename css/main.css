@@ -333,7 +333,7 @@ ol {
   margin-right: 93px;
 }
 
-.header__word {
+.logo-word--color-dark {
   color: black;
 }
 
@@ -688,7 +688,7 @@ ol {
   margin-bottom: 20px;
 }
 
-.footer-word {
+.logo-word--color-light {
   color: var(--footer-text-color);
 }
 
