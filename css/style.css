@@ -259,7 +259,7 @@
        background: var(--section-bg-color);
    }
    
-   .main .wrap {
+   .benefits-list__team {
        max-width: 270px;
    }
    
@@ -289,7 +289,7 @@
        width: 270px;
    }
    
-   .main-benefits .benefits-list__thumb {
+   .benefits-list__thumb {
        display: flex;
        align-items: center;
        justify-content: center;
