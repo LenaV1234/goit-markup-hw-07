@@ -4,6 +4,9 @@
 
 .benefits-list__team {
     max-width: 270px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .benefits-list__title {
@@ -28,10 +31,6 @@
     justify-content: center;
 }
 
-.benefits-list__team {
-    width: 270px;
-}
-
 .benefits-list__thumb {
     display: flex;
     align-items: center;
@@ -41,8 +40,4 @@
     background: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
-}
-
-.benefits-list__team:not(:last-child) {
-    margin-right: 30px;
 }

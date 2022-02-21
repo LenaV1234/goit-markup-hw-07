@@ -13,16 +13,15 @@
     justify-content: center;
 }
 
-.holder-list__team:not(:last-child) {
-    margin-right: 30px;
+.holder-list__team {
+    position: relative;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .main-holder {
     padding-bottom: 94px;
-}
-
-.holder-list__team {
-    position: relative;
 }
 
 .holder-list__text {

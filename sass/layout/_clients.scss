@@ -22,10 +22,15 @@
     width: 170px;
     height: 92px;
     border-radius: 4px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-.clients-list__item:not(:last-child) {
-    margin-right: 30px;
+.clients-list__link:hover,
+.clients-list__link:focus {
+    border-color: var(--hover-text-color);
+    color: var(--hover-text-color);
 }
 
 .clients-list__link {
@@ -39,14 +44,13 @@
     transition-property: border, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        border-color: var(--hover-text-color);
+        color: var(--hover-text-color);
+    }
 }
 
 .clients-list__icon {
     fill: currentColor;
-}
-
-.clients-list__link:hover,
-.clients-list__link:focus {
-    border-color: var(--hover-text-color);
-    color: var(--hover-text-color);
 }
